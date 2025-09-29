@@ -3,9 +3,6 @@
 #include <algorithm>
 
 void countingSort(std::vector<int>& arr) {
-    if (arr.empty()) {
-        return;
-    }
 
     int min = *std::min_element(arr.begin(), arr.end());
     int max = *std::max_element(arr.begin(), arr.end());

@@ -34,7 +34,7 @@ void countingSort(std::vector<int>& arr) {
 
 
 int main() {
-    std::vector<int> arr = {4, 2, -1, 2, 0, 5, -3, 4};
+    std::vector<int> arr = {-1, 2, 0, 5, 3, 4};
     countingSort(arr);
 
     
